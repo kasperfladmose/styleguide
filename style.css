@@ -1,0 +1,115 @@
+body {
+	margin: 0px;
+	background:#fff;
+}
+
+#container {
+	position: relative;
+	width: 90vw;
+	height: 100vh;
+	margin:auto;
+	font-family: helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+header {
+	background: #273582;
+	height: 10rem;
+	width: 100%;
+	color: #fff;
+	display: inline-flex;
+}
+
+header img {
+	width: 137px;
+	height: 130px;
+	display: flex;
+	padding: 10%;
+}
+
+nav {
+
+	background: #f1f1f1;
+	position: absolute;
+	margin-top:6%;
+	margin-left:48%;
+	width: 30rem;
+	height: 5rem;
+	color: #000;
+	list-style-type: none;
+	flex-grow: 1;
+}
+nav ul li {
+	text-align: center;
+	position: relative;
+	margin-top:-1rem;
+	padding-top: 3%;
+	padding-left:5%;
+	width: 5rem;
+	height: 3rem;
+	display:inline-flex;
+	line-height: 3;
+}
+
+nav ul li:hover {
+border-bottom: solid 3px #EBB700;
+
+}
+ nav a {
+ 	text-decoration: none;
+ 	color:#000;
+ }
+
+#content {
+	position: relative;
+	width: 90vw;
+	max-width: 90vw;
+
+	display: flex;
+
+  	flex-grow: 1;
+	background: #f1f1f1;
+	justify-content: space-between;
+	
+	
+ }
+
+ #content article {
+ 	position: relative;
+ 	background: #f1f1f1;
+ 	width: 100vw;
+ 	margin-left: auto;
+ 	padding: 1% 1% 1% 1%;
+
+
+ }
+ #content img {
+ 	display: inline-flex;
+ 	height: 100%;
+ 	
+ }
+
+ figure {
+ 	display:block;
+ 
+ }
+ figcaption {
+ 	padding: 1%; 
+ 	display: inline-flex;
+ ;
+ }
+
+ .flex-order {
+ 	order:1;
+ }
+
+ footer {
+ 	position: absolute;
+ 	margin:auto;
+ 	background: #273582;
+ 	color:#fff;
+ 	text-align: center;
+ 	line-height: 3;
+ 	height: 6rem;
+ 	width: 100%;
+ }
